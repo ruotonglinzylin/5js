@@ -11,7 +11,7 @@ let step = 0.005; // Size of each step along the path
 let pct = 0.0; // Percentage traveled (0.0 to 1.0)
 
 function setup() {
-  createCanvas(720, 400);
+  createCanvas(displayWidth, displayHeight);
   noStroke();
   distX = endX - beginX;
   distY = endY - beginY;

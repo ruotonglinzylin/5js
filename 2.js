@@ -38,7 +38,7 @@ class Car {
   let linzy;
   
   function setup() {
-    createCanvas(200, 400);
+    createCanvas(displayWidth, displayHeight);
     /* Construct the 3 Cars */
     //constructor expects cColor, x, y
     rav4 = new Car("white", 100, 200);

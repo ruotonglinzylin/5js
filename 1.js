@@ -8,7 +8,7 @@
   let ydirection = 3;
 
   function setup() {
-    createCanvas(720, 400);
+    createCanvas(displayWidth, displayHeight);
     noStroke();
     frameRate(30);
     ellipseMode(RADIUS);
